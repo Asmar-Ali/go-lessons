@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-/* 1st message: 1.0 + 0.00
-2nd message: 1.0 + 0.01
-3rd message: 1.0 + 0.02
-4th message: 1.0 + 0.03 */
-
 func maxMessages(thresh int) int {
 	totalCost := 0
 	for i := 0; ; i++ {
